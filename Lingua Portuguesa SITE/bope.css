@@ -77,6 +77,21 @@ body{
 .abc {
     padding-top: 180px;
     padding-bottom: 200px;
+   
+}
+
+.abc .lead{
+    font-weight: 450;
+    margin-top: 15px;
+    font-size: 1.6rem;
+}
+
+.card {
+    transition: 0.6s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
 }
 
 .abf {
@@ -90,6 +105,19 @@ body{
     height: 65vh;
     object-fit: cover;
     border-radius: 15px;
+}
+
+#carro {
+    transition: 0.3s;
+}
+
+.img-thumbnail {
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#carro:hover {
+    transform: translateY(-5px);
 }
 
 .carousel-caption {
@@ -113,17 +141,14 @@ body{
     transform: translateY(-5px);
 }
 
-.texto {
-    text-align: justify;
-    font-size: 1.5rem;
-    font-weight: 500;
-}
-
 .abc p {
     padding-bottom: 20px;
 }
 
-
+.texto-principal p {
+    font-weight: 500;
+    font-size: 1.3rem;
+}
 
 
 
@@ -148,59 +173,80 @@ body{
 
 /*opinião dos caba*/
 
-
-
-.mora {
-    padding-top: 150px;
+.opnn h1 {
+    font-size: 4.2rem;
+    font-weight: 700;
 }
 
-.bopeo{
-    padding-top: 200px;
+.opnn img {
+    transition: 0.5s;
+    max-width: 45vw;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
 
-
-
-.moras {
-    border-radius: 20px;
-    transition: 0.3s;
-}
-
-.bo {
-    border-radius: 20px;
-    transition: 0.3s;
-    max-width: 100%;
-}
-
-.bo:hover {
+.opnn img:hover {
     transform: translateY(-5px);
-}
-
-.moras:hover {
-    transform: translateY(-5px);
-}
-.abd {
-    font-size: 3rem;
-    font-weight: 650;
-}
-
-.terr {
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: justify;
-}
-
-.terro {
-    font-size: 3rem;
-    font-weight: 600;
     
 }
 
-.caixa {
-    background-color: rgb(206, 206, 206);
-    border-radius: 25px;
-    transition: 0.3s;
+.opnn .b {
+    height: 341px;
 }
 
-.caixa:hover {
+.opnn {
+    margin-bottom: 150px;
+    margin-top: 100px;
+}
+
+.c {
+    margin-bottom: 60px;
+}
+.opnn .card-text {
+    font-weight: 400;
+}
+
+
+
+/*pebas*/
+
+.opn h1 {
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+
+.opn img {
+    transition: 0.5s;
+    max-width: 45vw;
+    height: auto;
+    margin-top: 10px;
+}
+
+.opn img:hover {
     transform: translateY(-5px);
+}
+
+.opn blockquote{
+    transition: 0.5s;
+}
+
+.opn blockquote:hover {
+    transform: translateY(-5px);
+}
+
+.f {
+    font-size: 1.4rem;
+}
+
+.opn .card-text {
+    font-weight: 400;
+}
+
+
+
+
+.card-title {
+    font-weight: 500;
+    font-size: 1.8rem;
 }
