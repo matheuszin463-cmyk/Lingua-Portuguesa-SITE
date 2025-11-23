@@ -2,14 +2,14 @@
     cursor: pointer;
 
  transition: transform 0.3s ease, box-shadow 0.3s ease; 
-    
-   box-shadow: 0 4px 8px rgba(255, 3, 3, 0.2);
-    border: 2px rgba(238, 11, 56, 0.081) solid;
+   
+   box-shadow: 0 4px 8px rgba(255, 0, 0, 0.2);
+    border: 2px rgba(0, 0, 0, 0.26) solid;
     border-radius: 3rem;
   
 }
 .i{
-    border: 2px rgba(38, 36, 36, 0) solid;
+    border: 2px rgba(0, 0, 0, 0.184) solid;
     border-radius: 4rem;
 }
 .a:hover {
@@ -17,7 +17,7 @@
     transform: scale(0.9);
     
   
-    box-shadow: 0 8px 16px rgba(255, 0, 0, 0.3);
+    box-shadow: 0 8px 16px #ff00004d;
 }
 .navbar {
     padding: 1.5rem 0;
@@ -80,9 +80,7 @@ a{
     text-decoration: none;
     
 }
-.card {
-    border: none !important;
-}
+
 .card-header, .card-footer {
     border: none !important;
 }
