@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(240, 240, 240);
+}
+
+
+.a{
+    cursor: pointer;
+
+ transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    
+   box-shadow: 0 4px 8px rgba(255, 3, 3, 0.2);
+    border: 2px rgba(238, 11, 56, 0.081) solid;
+    border-radius: 3rem;
+  
+}
+.i{
+    border: 2px rgba(38, 36, 36, 0) solid;
+    border-radius: 4rem;
+}
+.a:hover {
+    
+    transform: scale(0.9);
+    
+  
+    box-shadow: 0 8px 16px rgba(255, 0, 0, 0.3);
+}
+.navbar {
+    padding: 1.5rem 0;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: #b8b8b8ff;
+   
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #281d28ff;
+    transition: 0.3s;
+}
+
+.navbar-brand:hover{
+    color: rgb(132, 0, 255);
+    
+}
+
+.nav-link {
+    color: #281d28ff;
+    margin-left: 2rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: rgb(255, 255, 255);
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    width: 100%;
+    text-align: center;
+    
+}
+.container-fluid{
+    margin-top: 2rem;
+}
+.m{
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.h{
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+
+
+}
+#box6{
+    border-bottom: 4px solid transparent;
+}
+#lc{
+    height: 3rem;
+    width: 3rem;
+}
+#modo{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+#ft{
+ background-color: #b8b8b8ff;
+ color: #281d28ff;
+ border-top: 4px solid transparent;
+border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*contexto*/
+.abc {
+    padding-top: 160px;
+    padding-bottom: 200px;
+    
+   
+}
+
+.abc .lead{
+    font-weight: 450;
+    margin-top: 15px;
+    font-size: 1.6rem;
+}
+
+.cardq {
+    transition: 0.6s;
+    background-color: white;
+    padding: 50px;
+}
+
+.cardq:hover {
+    transform: translateY(-8px);
+}
+
+.abf {
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 10px;
+}
+/*carrossel*/
+.carousel-item img {
+    height: 65vh;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+#carro {
+    transition: 0.3s;
+}
+
+.img-thumbnail {
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#carro:hover {
+    transform: translateY(-5px);
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 0.2rem;
+    backdrop-filter: blur(2px);
+}
+
+.carousel-caption h5 { font-size: 1.4rem; }
+.carousel-caption p  { font-size: 1rem; }
+
+
+.cardc {
+    padding: 2.0rem;
+}
+
+.bope {
+    transition: 0.3s;
+    border-radius: 25px;
+}
+
+.bope:hover {
+    transform: translateY(-5px);
+}
+
+.abc p {
+    padding-bottom: 20px;
+}
+
+.texto-principal p {
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.f {
+    transition: 0.2s;
+    color: #0073df;
+}
+
+.f:hover {
+    color: #0057a8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*opiniÃ£o dos caba*/
+
+.skiny {
+    font-size: 3.8rem;
+    font-weight: 700;
+}
+.opnn h1 {
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+
+.opnn img {
+    transition: 0.5s;
+    max-width: 45vw;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.opnn img:hover {
+    transform: translateY(-5px);
+    
+}
+
+.opnn .b {
+    height: 341px;
+}
+
+.opnn {
+    margin-bottom: 150px;
+    margin-top: 100px;
+}
+
+.c {
+    margin-bottom: 60px;
+}
+.opnn .card-text {
+    font-weight: 400;
+}
+
+.bh {
+    transition: 0.3s;
+}
+
+.bh:hover{
+    transform: translateY(-5px);
+}
+
+
+/*pebas*/
+
+
+.opn {
+    transition: 0.5s;
+    margin-top: 10px;
+}
+
+.opn:hover {
+    transform: translateY(-5px);
+}
+
+
+
+
+
+
+
+.card-title {
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.ca {
+    background-color: white;
+    border: 2px solid #0073df;
+    border-radius: 16px;
+    text-align: center;
+    padding: 2rem;
+    transition: 0.3s;
+    min-height: 250px;
+    min-width: 300px;
+}
+
+.ca:hover {
+    transform: translateY(-5px);
+
+}
+
+.titu {
+    color: #0073df;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.cat {
+    color: black;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*dados*/
+.dadinhos {
+    
+    padding-bottom: 100px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.dadinhos h2 {
+    font-size: 4.4rem;
+    margin-bottom: 3rem;
+    font-weight: 650;
+}
+
+.fatosc {
+    background-color: #ffffff;
+    border-radius: 16px;
+    text-align: center;
+    padding: 2rem;
+    transition: 0.3s;
+    display: flex;             
+    flex-direction: column;     
+    justify-content: space-between; 
+    min-height: 350px;
+    overflow: hidden;
+}
+
+.fatosc:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 30, 197, 0.39);
+}
+
+.fatosn {
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+.dadinhos p {
+    font-size: 1.6rem;
+    color: #000000;
+    flex-grow: 1;               
+    margin-bottom: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+}
+
+.dadinhos small{
+    color: #4b4b4b;
+    font-weight: 500;
+    font-size: 1.0rem;
+    white-space: nowrap;
+
+}
+
+.ba {
+    margin-bottom: 110px;
+    margin-top: 30px;
+}
+
+.dadinhos h2 {
+    font-size: 3.6rem;
+}
+
+.amir {
+    font-size: 2.6rem;
+}
