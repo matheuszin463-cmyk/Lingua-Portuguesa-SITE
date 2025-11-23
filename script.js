@@ -3,7 +3,7 @@ window.onload = () => {
     let t1 = document.getElementById("lc");
     let t2 = document.getElementById("lcc");
      let foo = document.getElementById("fo");
-     let foo2 = document.getElementById("fo2");
+     
      let foo3 = document.getElementById("fo3");
      let foo4 = document.getElementById("fo4");
      let foo5 = document.getElementById("fo5");
@@ -37,10 +37,20 @@ window.onload = () => {
     function loop() {
         si6.style.boxShadow = `0 0 15px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
         ftr.style.boxShadow = `0 0 15px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
+
+
+
+        
+         // nao precisa no codigo
          bx.style.boxShadow = `0 0 5px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
   bx2.style.boxShadow = `0 0 5px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
   bx3.style.boxShadow = `0 0 5px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
   bx4.style.boxShadow = `0 0 5px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
+         // nao precisa no codigo
+
+
+
+
         si6.style.borderColor  = ` rgba(${cor}, ${cor2},  ${cor3}, 1)`;
         t2.style.color  = ` rgba(${cor}, ${cor2},  ${cor3}, 1)`;
         ftr.style.color  = ` rgba(${cor}, ${cor2},  ${cor3}, 1)`;
@@ -153,7 +163,7 @@ aumenta();
             bx3.style.color = "#FFF"
             bx4.style.color = "#FFF"
            foo.style.color = "#cdcdcdff"
-           foo2.style.color = "#cdcdcdff"
+          
            foo3.style.color = "#cdcdcdff"
             foo4.style.color = "#cdcdcdff"
             foo6.style.color = "#cdcdcdff"
@@ -171,14 +181,6 @@ foo.addEventListener("mouseleave", () => {
     foo.style.color = "#cdcdcdff";
 });
 
-  foo2.addEventListener("mouseenter", () => {
-   
-    foo2.style.color = "#000000ff";
-});
-
-foo2.addEventListener("mouseleave", () => {
-    foo2.style.color = "#cdcdcdff";
-});
 
   foo3.addEventListener("mouseenter", () => {
    
@@ -211,14 +213,14 @@ foo4.addEventListener("mouseleave", () => {
             bx2.style.backgroundColor = "#FFF"
             bx3.style.backgroundColor = "#FFF"
             bx4.style.backgroundColor = "#FFF"
-            bx5.style.backgroundColor = "#FFF"
+          
              bx.style.color = "#000"
             bx2.style.color = "#000"
             bx3.style.color = "#000"
             bx4.style.color = "#000"
 
               foo.style.color = "#281d28ff"
-             foo2.style.color = "#281d28ff"
+           
              foo3.style.color = "#281d28ff"
              foo4.style.color = "#281d28ff"
             ftr.style.color = "#281d28ff"
@@ -237,14 +239,7 @@ foo.addEventListener("mouseleave", () => {
     foo.style.color = "";
 });
 
-  foo2.addEventListener("mouseenter", () => {
-   
-    foo2.style.color = "#ffffffff";
-});
 
-foo2.addEventListener("mouseleave", () => {
-    foo2.style.color = "";
-});
 
   foo3.addEventListener("mouseenter", () => {
    
