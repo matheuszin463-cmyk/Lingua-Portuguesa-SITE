@@ -1,4 +1,9 @@
 window.onload = () => {
+    let si = document.getElementById("box");
+    let si2 = document.getElementById("box2");
+    let si3 = document.getElementById("box3");
+    let si4 = document.getElementById("box4");
+    let si5 = document.getElementById("box5");
     let si6 = document.getElementById("box6");
     let t1 = document.getElementById("lc");
     let t2 = document.getElementById("lcc");
@@ -10,20 +15,11 @@ window.onload = () => {
        let foo6 = document.getElementById("fo6");
      let foo7 = document.getElementById("fo7");
        let ftr = document.getElementById("ft");
-
-
-       
-       // nao precisa no codigo
      let bx= document.getElementById("box");
      let bx2 = document.getElementById("box2");
      let bx3 = document.getElementById("box3");
      let bx4 = document.getElementById("box4");
- 
-     // nao precisa no codigo
-
-
-
-
+     let bx5 = document.getElementById("box5");
     let cor = 0;
     let cor2 = 0;
     let cor3 = 0;
@@ -35,12 +31,19 @@ window.onload = () => {
     let bac = document.body
  
     function loop() {
+        si.style.boxShadow  = `0 0 15px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
+        si2.style.boxShadow = `0 0 15px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
+        si3.style.boxShadow = `0 0 15px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
+        si4.style.boxShadow = `0 0 15px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
+        si5.style.boxShadow = `0 0 15px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
         si6.style.boxShadow = `0 0 15px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
         ftr.style.boxShadow = `0 0 15px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
-         bx.style.boxShadow = `0 0 5px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
-  bx2.style.boxShadow = `0 0 5px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
-  bx3.style.boxShadow = `0 0 5px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
-  bx4.style.boxShadow = `0 0 5px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
+
+        si.style.borderColor  = ` rgba(${cor}, ${cor2},  ${cor3}, 1)`;
+        si2.style.borderColor = ` rgba(${cor}, ${cor2},  ${cor3}, 1)`;
+        si3.style.borderColor = ` rgba(${cor}, ${cor2},  ${cor3}, 1)`;
+        si4.style.borderColor = ` rgba(${cor}, ${cor2},  ${cor3}, 1)`;
+        si5.style.borderColor = ` rgba(${cor}, ${cor2},  ${cor3}, 1)`;
         si6.style.borderColor  = ` rgba(${cor}, ${cor2},  ${cor3}, 1)`;
         t2.style.color  = ` rgba(${cor}, ${cor2},  ${cor3}, 1)`;
         ftr.style.color  = ` rgba(${cor}, ${cor2},  ${cor3}, 1)`;
@@ -147,11 +150,12 @@ aumenta();
             bx2.style.backgroundColor = "#000"
             bx3.style.backgroundColor = "#000"
             bx4.style.backgroundColor = "#000"
-
+            bx5.style.backgroundColor = "#000"
             bx.style.color = "#FFF"
             bx2.style.color = "#FFF"
             bx3.style.color = "#FFF"
             bx4.style.color = "#FFF"
+            bx5.style.color = "#FFF"
            foo.style.color = "#cdcdcdff"
            foo2.style.color = "#cdcdcdff"
            foo3.style.color = "#cdcdcdff"
@@ -216,7 +220,7 @@ foo4.addEventListener("mouseleave", () => {
             bx2.style.color = "#000"
             bx3.style.color = "#000"
             bx4.style.color = "#000"
-
+            bx5.style.color = "#000"
               foo.style.color = "#281d28ff"
              foo2.style.color = "#281d28ff"
              foo3.style.color = "#281d28ff"
