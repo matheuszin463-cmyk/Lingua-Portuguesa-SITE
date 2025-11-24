@@ -12,7 +12,9 @@ window.onload = () => {
        let ftr = document.getElementById("ft");
 
 
-       
+     
+
+
 
     let cor = 0;
     let cor2 = 0;
@@ -27,7 +29,6 @@ window.onload = () => {
     function loop() {
         si6.style.boxShadow = `0 0 15px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
         ftr.style.boxShadow = `0 0 15px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
-
 
 
 
